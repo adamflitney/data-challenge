@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  padding-bottom: 2rem;
+}
+
+h2 {
+  padding-bottom: 1rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
+h4 {
+  padding: 1rem;
+  color: rgb(95, 95, 100);
+}
+
+p {
+  padding-bottom: 1rem;
+}
+
+.key {
+  display: flex;
+  flex-direction: column;
+  padding-left: 5px;
+}
+
+.key-name {
+  color: rgb(75, 75, 80);
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.data {
+  display: flex;
+  padding-left: 5px;
+}
+
+.data > p {
+  margin-right: 10px;
+}
+
+.key > p {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+.label {
+  font-weight: 700;
+}
